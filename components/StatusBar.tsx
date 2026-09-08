@@ -1,10 +1,10 @@
 "use client";
 
 import { GitBranch, Zap } from "lucide-react";
-import adsData from "@/data/ads.json";
+import metricsData from "@/data/metrics.json";
 
 const adsConfigured =
-  adsData.client && !adsData.client.includes("0000000000000000");
+  metricsData.client && !metricsData.client.includes("0000000000000000");
 
 export default function StatusBar() {
   return (
