@@ -1,0 +1,11 @@
+# The Dev Digest
+
+> An editorial-grade digital publication covering software engineering, developer tools, startup strategy, and in-depth technical narratives.
+
+The Dev Digest (https://dev-digestion.vercel.app) provides extensive, 5-chapter long-form guides and stories for developers and engineers.
+
+## Content Structure
+- **Guides**: Detailed, step-by-step technical tutorials on modern frameworks, algorithms, and systems.
+- **Stories**: Narrative-driven tech articles exploring the history, strategy, and business of software.
+
+You can find all of our guides in the sitemap: https://dev-digestion.vercel.app/sitemap.xml

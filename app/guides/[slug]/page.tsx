@@ -1,8 +1,32 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import guides from "@/data/guides.json";
 import ContentHighlight from "@/components/ContentHighlight";
 import { ArrowLeft, Clock, Calendar, Share2, Bookmark, ExternalLink, Megaphone, Wrench } from "lucide-react";
 import Link from "next/link";
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const guide = guides.find((g) => g.slug === params.slug) as any;
+  if (!guide) return {};
+
+  return {
+    title: `${guide.title} | The Dev Digest`,
+    description: guide.description,
+    openGraph: {
+      title: guide.title,
+      description: guide.description,
+      type: "article",
+      url: `https://dev-digestion.vercel.app/guides/${guide.slug}`,
+      publishedTime: guide.date,
+      authors: ["The Dev Digest Team"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: guide.title,
+      description: guide.description,
+    },
+  };
+}
 
 export async function generateStaticParams() {
   return guides.map((guide) => ({ slug: guide.slug }));
@@ -15,8 +39,21 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
   const relatedTools = guide.relatedTools || [];
   const relatedAds = guide.relatedAds || [];
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: guide.title,
+    description: guide.description,
+    datePublished: guide.date,
+    author: {
+      "@type": "Organization",
+      name: "The Dev Digest",
+    },
+  };
+
   return (
     <div className="min-h-screen bg-bg">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <header className="sticky top-0 z-20 border-b border-line bg-surface/95 backdrop-blur-md">
         <div className="flex h-14 items-center gap-4 px-4 max-w-7xl mx-auto">
           <Link href="/" className="flex items-center gap-2 text-ink-muted hover:text-ink transition-colors font-ui text-sm">

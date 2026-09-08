@@ -37,7 +37,7 @@ const sans = Public_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://example.com"),
+  metadataBase: new URL("https://dev-digestion.vercel.app"),
   title: "The Dev Digest — In-Depth Guides, Stories & Tools",
   description:
     "An editorial-grade digital publication covering software engineering, developer tools, startup strategy, and in-depth technical narratives.",
