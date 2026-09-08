@@ -52,6 +52,9 @@ export const metadata: Metadata = {
     title: "The Dev Digest — In-Depth Guides, Stories & Tools",
     description: "An editorial-grade digital publication for developers.",
   },
+  other: {
+    "google-adsense-account": "ca-pub-5305326224028702"
+  },
 };
 
 export const viewport: Viewport = {
