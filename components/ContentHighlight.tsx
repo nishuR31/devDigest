@@ -35,19 +35,10 @@ export default function ContentHighlight({ slotId }: { slotId: string }) {
 
   if (!config) return null;
 
-  const containerClass = `${FORMAT_STYLE[config.format]} rounded-lg bg-surface-panel/60 flex flex-col`;
+  const containerClass = `my-8 ${FORMAT_STYLE[config.format]} rounded-lg bg-surface-panel/60 flex flex-col border border-line overflow-hidden`;
 
   if (!isConfigured || failed) {
-    return (
-      <div className={containerClass} aria-label="Premium highlight placeholder">
-        <div className="flex flex-1 items-center justify-center px-4 py-6 text-center">
-          <p className="text-xs font-mono text-ink-dim">
-            Premium Highlight ·{" "}
-            <span className="text-ink-muted">{config.format}</span>
-          </p>
-        </div>
-      </div>
-    );
+    return null;
   }
 
   return (

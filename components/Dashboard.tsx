@@ -87,9 +87,7 @@ export default function Dashboard({ data }: { data: LinksData }) {
                   </div>
 
                   {catIndex === 0 && (
-                    <div className="rounded-lg overflow-hidden border border-line">
                       <ContentHighlight slotId="inline-leaderboard" />
-                    </div>
                   )}
 
                   <div className="flex flex-col gap-5">
@@ -201,9 +199,7 @@ export default function Dashboard({ data }: { data: LinksData }) {
             )}
 
             {/* Footer ad */}
-            <div className="rounded-lg overflow-hidden border border-line">
-              <ContentHighlight slotId="footer-banner" />
-            </div>
+            <ContentHighlight slotId="footer-banner" />
           </div>
         </main>
       </div>

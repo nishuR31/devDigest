@@ -46,9 +46,7 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
               <li className="hover:text-accent cursor-pointer transition-colors">Advanced Patterns</li>
               <li className="hover:text-accent cursor-pointer transition-colors">Operations</li>
             </ul>
-            <div className="mt-10 rounded-lg overflow-hidden border border-line bg-surface-soft">
-              <ContentHighlight slotId="sidebar-rect" />
-            </div>
+            <ContentHighlight slotId="sidebar-rect" />
           </div>
         </aside>
 
@@ -70,17 +68,13 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
           </div>
 
           {/* Top Ad */}
-          <div className="my-10 rounded-lg overflow-hidden border border-line">
-            <ContentHighlight slotId="inline-leaderboard" />
-          </div>
+          <ContentHighlight slotId="inline-leaderboard" />
 
           {/* Article Body — 5 full chapters */}
           <div className="story-content" dangerouslySetInnerHTML={{ __html: guide.content }} />
 
           {/* Mid-Article Ad */}
-          <div className="my-14 rounded-lg overflow-hidden border border-line">
-            <ContentHighlight slotId="inline-leaderboard" />
-          </div>
+          <ContentHighlight slotId="inline-leaderboard" />
 
           {/* ====== RELATED TOOLS ====== */}
           {relatedTools.length > 0 && (
@@ -150,9 +144,7 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
           )}
 
           {/* Footer Ad */}
-          <div className="my-14 rounded-lg overflow-hidden border border-line">
-            <ContentHighlight slotId="footer-banner" />
-          </div>
+          <ContentHighlight slotId="footer-banner" />
 
           {/* Author */}
           <div className="mt-8 p-8 bg-surface border border-line rounded-xl flex items-center gap-6">
