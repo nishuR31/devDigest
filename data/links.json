@@ -1,0 +1,184 @@
+{
+  "categories": [
+    {
+      "id": "development-tools",
+      "label": "Development Tools",
+      "description": "Essential utilities and tools for modern software development.",
+      "items": [
+        {
+          "title": "Postman",
+          "description": "Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster. Whether you are building backend microservices, testing complex authentication flows, or just trying to understand a third-party webhook, Postman provides a comprehensive, unified interface to design, test, and document your endpoints in real time. It is an absolute necessity for any professional backend developer.",
+          "url": "https://www.postman.com/",
+          "icon": "send",
+          "featured": true
+        },
+        {
+          "title": "Regex101",
+          "description": "Regular expressions can be notoriously difficult to read, write, and debug. Regex101 provides a real-time regex testing environment with an incredibly detailed, character-by-character breakdown of exactly how your pattern matches (or fails to match) the target string. It includes a vast library of community patterns, comprehensive cheat sheets for PCRE, Python, and JavaScript engines, and a step-by-step debugger that visualizes the backtracking process. This tool alone can save hours of frustrating debugging.",
+          "url": "https://regex101.com/",
+          "icon": "code-2",
+          "featured": true
+        },
+        {
+          "title": "[AD] NVMe Cloud Hosting",
+          "description": "Stop struggling with slow page loads and unreliable servers. Our premium NVMe cloud hosting architecture is engineered specifically for high-traffic developer portfolios and resource-intensive applications. With guaranteed 99.99% uptime, built-in DDoS protection, and seamless automated daily backups, you can focus entirely on writing code while we handle the infrastructure. Special limited-time offer: Get 50% off your first year by clicking here!",
+          "url": "https://example.com/ad/hosting",
+          "icon": "zap",
+          "featured": true,
+          "isPremiumPartner": true
+        },
+        {
+          "title": "Cloudflare Workers",
+          "description": "Cloudflare Workers changed the game by allowing developers to deploy serverless JavaScript and WebAssembly code directly to Cloudflare's edge network—which spans hundreds of cities worldwide. This means your code runs within milliseconds of your users, virtually eliminating cold starts and latency. It's the perfect solution for building robust middleware, handling authentication, or deploying entire lightweight microservices without managing a single server.",
+          "url": "https://workers.cloudflare.com/",
+          "icon": "cloud",
+          "featured": false
+        },
+        {
+          "title": "Docker",
+          "description": "Docker takes away repetitive, mundane configuration tasks and is used throughout the development lifecycle for fast, easy and portable application development - desktop and cloud. Docker’s comprehensive end to end platform includes UIs, CLIs, APIs and security that are engineered to work together across the entire application delivery lifecycle.",
+          "url": "https://www.docker.com/",
+          "icon": "box",
+          "featured": false
+        },
+        {
+          "title": "Sentry",
+          "description": "Sentry’s application monitoring platform helps every developer see performance issues, fix errors faster, and optimize their code health. It provides real-time error tracking that gives you insight into production deployments and information to reproduce and fix crashes.",
+          "url": "https://sentry.io/",
+          "icon": "alert-triangle",
+          "featured": false
+        },
+        {
+          "title": "Carbon",
+          "description": "Sharing raw code snippets on social media or in presentations often leads to messy formatting and poor readability. Carbon elegantly solves this by allowing you to paste your source code and instantly generate beautifully styled, syntax-highlighted images. You can customize the theme, window controls, background colors, and padding to match your exact branding. It has become the industry standard for sharing code on platforms like Twitter and LinkedIn.",
+          "url": "https://carbon.now.sh/",
+          "icon": "image",
+          "featured": false
+        },
+        {
+          "title": "[AD] Secure Your Endpoints",
+          "description": "Are your web applications vulnerable to automated bot attacks and malicious scraping? Our Enterprise-grade Web Application Firewall (WAF) deploys in under 5 minutes and instantly blocks SQL injections, cross-site scripting (XSS), and zero-day threats. Trusted by Fortune 500 companies, our AI-driven threat intelligence keeps your data secure 24/7. Click here to claim your 30-day free trial and secure your infrastructure today.",
+          "url": "https://example.com/ad/security",
+          "icon": "shield",
+          "featured": false,
+          "isPremiumPartner": true
+        }
+      ]
+    },
+    {
+      "id": "learning-resources",
+      "label": "Learning Resources",
+      "description": "Informative deep-dives, documentation, and architectural guides.",
+      "items": [
+        {
+          "title": "MDN Web Docs",
+          "description": "Maintained by Mozilla and the open-source community, MDN Web Docs is universally recognized as the most accurate, comprehensive, and up-to-date documentation for web technologies. Whether you need to understand the nuances of the CSS Grid layout, explore the latest experimental JavaScript APIs, or ensure cross-browser compatibility for HTML5 features, MDN is the definitive source of truth for frontend and full-stack engineers.",
+          "url": "https://developer.mozilla.org/",
+          "icon": "book-open",
+          "featured": true
+        },
+        {
+          "title": "System Design Primer",
+          "description": "Preparing for a system design interview at a top-tier tech company requires more than just knowing how to code; it requires a deep understanding of scalability, load balancing, caching, database sharding, and distributed systems architecture. This open-source repository aggregates years of industry knowledge into a comprehensive, highly structured curriculum. It includes interactive diagrams, real-world case studies of companies like Netflix and Uber, and flashcards to test your knowledge.",
+          "url": "https://github.com/donnemartin/system-design-primer",
+          "icon": "database",
+          "featured": true
+        },
+        {
+          "title": "FreeCodeCamp",
+          "description": "FreeCodeCamp is a donor-supported tax-exempt 501(c)(3) nonprofit organization. Their mission is to help people learn to code for free. They accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public.",
+          "url": "https://www.freecodecamp.org/",
+          "icon": "code",
+          "featured": false
+        },
+        {
+          "title": "[AD] Advanced System Design Course",
+          "description": "Ready to level up from Junior to Senior Engineer? Our Advanced System Design Masterclass dives deep into the exact architectures used by FAANG companies. Over 40 hours of high-definition video content, real-world distributed system simulations, and 1-on-1 mentorship from ex-Google engineers. Don't let the system design interview hold back your career progression. Enroll today and take the next step in your software engineering journey.",
+          "url": "https://example.com/ad/course",
+          "icon": "star",
+          "featured": false,
+          "isPremiumPartner": true
+        },
+        {
+          "title": "Node.js Architecture Guide",
+          "description": "Understanding the Node.js event loop is critical for writing highly performant, non-blocking applications. This official architectural guide breaks down the complex inner workings of the V8 JavaScript engine and the libuv library. It meticulously explains the difference between macro-tasks and micro-tasks, how process.nextTick() interacts with the call stack, and how Node.js manages asynchronous I/O operations under heavy concurrent loads.",
+          "url": "https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick",
+          "icon": "server",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "design-assets",
+      "label": "Design Assets",
+      "description": "Resources for UI/UX, system sketching, and frontend aesthetics.",
+      "items": [
+        {
+          "title": "Excalidraw",
+          "description": "Excalidraw is a phenomenal virtual whiteboard tool designed to create diagrams that have a hand-drawn, organic feel. It is incredibly lightweight, requires zero setup or account creation, and allows multiple collaborators to sketch system architectures, flowcharts, and UI wireframes in real time. Because of its simplicity and aesthetic appeal, it has become the go-to tool for developers brainstorming complex technical concepts.",
+          "url": "https://excalidraw.com/",
+          "icon": "pencil-ruler",
+          "featured": true
+        },
+        {
+          "title": "Tailwind UI",
+          "description": "Beautifully designed, expertly crafted components and templates, built by the makers of Tailwind CSS. The perfect starting point for your next project. It includes hundreds of accessible, responsive, and highly customizable UI blocks.",
+          "url": "https://tailwindui.com/",
+          "icon": "layout",
+          "featured": true
+        },
+        {
+          "title": "[AD] Premium React UI Kit",
+          "description": "Stop wasting hundreds of hours building standard UI components from scratch. Our Premium React UI Kit provides over 500 beautifully crafted, fully accessible, and highly customizable components built on top of Tailwind CSS and Framer Motion. Whether you are building an enterprise dashboard, an e-commerce storefront, or a sleek SaaS landing page, our kit gives you the foundation to ship production-ready applications in days, not months.",
+          "url": "https://example.com/ad/uikit",
+          "icon": "shopping-cart",
+          "featured": true,
+          "isPremiumPartner": true
+        },
+        {
+          "title": "Lucide Icons",
+          "description": "A beautiful and consistent open-source icon toolkit designed for modern web applications. Forked from the popular Feather Icons project, Lucide significantly expands the library while maintaining the clean, minimalist aesthetic that developers love. With official packages for React, Vue, Svelte, and solid support for tree-shaking, you can easily integrate thousands of highly customizable SVG icons into your project without bloating your bundle size.",
+          "url": "https://lucide.dev/",
+          "icon": "layout-grid",
+          "featured": false
+        },
+        {
+          "title": "Google Fonts",
+          "description": "Making the web more beautiful, fast, and open through great typography. Google Fonts is a library of over 1,400 free licensed font families, an interactive web directory for browsing the library, and APIs for conveniently using the fonts via CSS and Android.",
+          "url": "https://fonts.google.com/",
+          "icon": "type",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "startup-business",
+      "label": "Startup & Business",
+      "description": "Tools and resources for launching, scaling, and managing your startup.",
+      "items": [
+        {
+          "title": "Stripe",
+          "description": "Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes. Whether you’re creating a subscription service, an on-demand marketplace, or an e-commerce store, Stripe’s meticulously designed APIs and unmatched functionality help you create the best possible product for your users.",
+          "url": "https://stripe.com/",
+          "icon": "credit-card",
+          "featured": true
+        },
+        {
+          "title": "Product Hunt",
+          "description": "Product Hunt is a curation of the best new products, every day. Discover the latest mobile apps, websites, and technology products that everyone's talking about. It's the launchpad for thousands of successful startups and a daily destination for tech enthusiasts.",
+          "url": "https://www.producthunt.com/",
+          "icon": "trending-up",
+          "featured": false
+        },
+        {
+          "title": "[AD] Automated Bookkeeping",
+          "description": "Stop wasting time in spreadsheets and focus on building your product. Our AI-driven automated bookkeeping software syncs directly with your bank, categorizes expenses, and prepares your taxes automatically. Trusted by over 10,000 founders. Get 3 months free today!",
+          "url": "https://example.com/ad/accounting",
+          "icon": "pie-chart",
+          "featured": false,
+          "isPremiumPartner": true
+        }
+      ]
+    }
+  ]
+}

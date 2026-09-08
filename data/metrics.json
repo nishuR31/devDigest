@@ -1,0 +1,27 @@
+{
+  "provider": "internal",
+  "client": "ca-pub-0000000000000000",
+  "slots": [
+    {
+      "id": "sidebar-rect",
+      "slotId": "1111111111",
+      "format": "rectangle",
+      "label": "sponsored.tsx",
+      "placement": "sidebar"
+    },
+    {
+      "id": "inline-leaderboard",
+      "slotId": "2222222222",
+      "format": "horizontal",
+      "label": "sponsored-banner.tsx",
+      "placement": "content"
+    },
+    {
+      "id": "footer-banner",
+      "slotId": "3333333333",
+      "format": "horizontal",
+      "label": "sponsored-footer.tsx",
+      "placement": "footer"
+    }
+  ]
+}
