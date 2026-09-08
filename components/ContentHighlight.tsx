@@ -35,7 +35,7 @@ export default function ContentHighlight({ slotId }: { slotId: string }) {
 
   if (!config) return null;
 
-  const containerClass = `my-8 ${FORMAT_STYLE[config.format]} rounded-lg bg-surface-panel/60 flex flex-col border border-line overflow-hidden`;
+  const containerClass = `my-8 ${FORMAT_STYLE[config.format as ContentSlotConfig["format"]]} rounded-lg bg-surface-panel/60 flex flex-col border border-line overflow-hidden`;
 
   if (!isConfigured || failed) {
     return null;
