@@ -1,0 +1,12 @@
+# AdsWeb Error Log & Resolutions
+
+## Recorded Errors & Fixes
+- **Error 1**: `npx: command not found` in default non-interactive bash subshell.
+  - *Cause*: Subshell PATH did not include `/home/nishu/.nvm/versions/node/v24.16.0/bin`.
+  - *Resolution*: Include node/npm/bun path in subshell commands (`export PATH=$PATH:/home/nishu/.nvm/versions/node/v24.16.0/bin:/home/nishu/.bun/bin`).
+- **Error 2**: Missing Web Apps & Tools listing on Dashboard.
+  - *Cause*: Apps dataset existed with 120 entries but was not surfaced in Dashboard or Sidebar navigation.
+  - *Resolution*: Wired `appsData` into `components/Dashboard.tsx` and `components/Sidebar.tsx` with category badges, interactive search, and deep-links to `/apps/[slug]`.
+- **Error 3**: Stale build chunk mismatch risks during static re-deploys.
+  - *Cause*: Browser caching of previous JS chunks can produce `ChunkLoadError` when users navigate between dynamic pages.
+  - *Resolution*: Implemented `components/ErrorBoundary.tsx` that catches chunk loading failures and executes `clearStaleBuildCache()` automatically.

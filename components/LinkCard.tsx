@@ -14,16 +14,16 @@ export default function LinkCard({
 
   return (
     <article
-      className={`group relative rounded-xl border p-6 transition-all duration-300 hover:shadow-md ${
+      className={`group relative rounded-2xl border p-5 sm:p-6 transition-all duration-300 ${
         isPremium
-          ? "border-accent/20 bg-accent-soft"
-          : "border-line bg-surface hover:border-accent/30"
+          ? "border-accent/30 bg-accent-soft/70 shadow-sm"
+          : "border-line bg-surface/85 glass-card"
       }`}
     >
       <div className="flex flex-col sm:flex-row gap-5">
         {/* Icon */}
-        <div className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-xl ${
-          isPremium ? "bg-accent/20 text-accent" : "bg-surface-soft text-accent border border-line"
+        <div className={`flex h-12 w-12 sm:h-14 sm:w-14 shrink-0 items-center justify-center rounded-2xl ${
+          isPremium ? "bg-accent/20 text-accent shadow-sm" : "bg-surface-soft text-accent border border-line shadow-inner"
         }`}>
           {isPremium ? <Megaphone className="h-6 w-6" /> : <Icon className="h-6 w-6" strokeWidth={1.5} />}
         </div>
@@ -31,16 +31,16 @@ export default function LinkCard({
         {/* Body */}
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-2">
-            <h3 className="text-lg font-display font-bold text-ink group-hover:text-accent transition-colors">
+            <h3 className="text-base sm:text-lg font-display font-bold text-ink group-hover:text-accent transition-colors">
               {item.title}
             </h3>
             {isPremium && (
               <span className="px-2 py-0.5 rounded-full bg-accent/20 text-accent text-[9px] font-label font-bold uppercase tracking-wider">
-                Premium
+                Featured Partner
               </span>
             )}
           </div>
-          <p className="text-sm font-body leading-relaxed text-ink-muted line-clamp-4">
+          <p className="text-xs sm:text-sm font-body leading-relaxed text-ink-muted line-clamp-3 italic">
             {item.description}
           </p>
         </div>
@@ -51,9 +51,9 @@ export default function LinkCard({
             href={`/out?target=${encodeURIComponent(item.url)}`}
             target="_blank"
             rel="noopener noreferrer"
-            className={`inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg font-ui font-semibold text-sm transition-all ${
+            className={`inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl font-ui font-semibold text-xs sm:text-sm transition-all shadow-sm ${
               isPremium
-                ? "bg-accent hover:bg-accent-dim text-white shadow-sm hover:shadow-md"
+                ? "bg-accent hover:bg-accent-dim text-white shadow-accent/20"
                 : "bg-surface-panel hover:bg-surface-soft text-ink border border-line hover:border-accent/40"
             }`}
           >

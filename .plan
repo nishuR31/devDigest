@@ -1,0 +1,28 @@
+# AdsWeb Implementation Plan
+
+## Task Status: Completed
+
+- [x] **Content Expansion**:
+  - Expanded `data/apps.json` from 120 to 250 web apps and online developer utilities across 10 functional categories.
+  - Expanded `data/guides.json` from 80 to 135 in-depth architectural and systems guides.
+  - Expanded `data/stories.json` from 20 to 50 engineering incident logs and war stories.
+  - Total static pages generated: **442 pages** (exceeding >400 pages requirement).
+  - Updated `app/sitemap.ts` to index all 442 pages with appropriate priority, frequency, and last-modified metadata.
+
+- [x] **Reader Experience & Reader Ads ("toi add read add")**:
+  - Created `components/ReaderControls.tsx`: Smooth liquid progress bar tracking reading percentage at top of viewport, dynamic typography scale adjuster (compact, standard, large reading font size), wide reading focus mode toggle, native share and bookmark persistence.
+  - Created `components/ReaderAds.tsx`:
+    - `InlineEditorialAd`: High-visibility TOI/editorial-style mid-article ad highlight styled with subtle liquid glass cards, sponsor badge, and AdUnit fallback.
+    - `StickyBottomAd`: Floating collapsible bottom drawer with minimize/dismiss controls and sponsor callout.
+  - Integrated into `app/guides/[slug]/page.tsx`, `app/stories/[slug]/page.tsx`, `app/apps/[slug]/page.tsx`, and `app/layout.tsx`.
+
+- [x] **UI/UX & Liquid Glass Theme**:
+  - Updated `app/globals.css`: Softer theme base with light white theming (`#F8FAFC`, `#FFFFFF`, subtle cool slate borders `#E2E8F0`, soft ink `#0F172A`), liquid glass utilities (`.glass-panel`, `.glass-card`, `.glass-pill`, specular highlights, backdrop blur filters).
+  - Updated `lib/theme-provider.tsx` and `app/layout.tsx` to default to the softer light mode.
+  - Upgraded `components/Dashboard.tsx` and `components/Sidebar.tsx` with "Web Apps & Tools" section and filter tab (live count of 250 apps, 135 guides, 50 stories).
+  - Enhanced `app/apps/[slug]/page.tsx` with an interactive online workbench console, features checklist, step-by-step instructions, and VAST video showcase.
+
+- [x] **Error Boundary & Stale Build Cache Cleanup**:
+  - Created `lib/cache-cleaner.ts`: Automated CacheStorage deletion, service worker unregistration, and stale storage purge with build version tracking.
+  - Created `components/ErrorBoundary.tsx`: Catches runtime render errors, intercepts Next.js `ChunkLoadError` / dynamic module fetch failures, and provides auto-recovery plus a 1-click "Purge Stale Cache & Reload" button.
+  - Created `components/CacheCleanup.tsx`: Status indicator and manual purge trigger integrated into `TopBar.tsx`.

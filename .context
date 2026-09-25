@@ -1,0 +1,56 @@
+# AdsWeb Context & Architecture
+
+## Overview
+AdsWeb (The Dev Digest) is an editorial-grade Next.js web application featuring technical guides, software engineering stories, developer links/tools, and multi-format ad integrations (Google AdSense, VAST video ads, contextual inline highlights).
+
+## Current Stats
+- **Total Static Pages**: 442 pages
+  - Web Apps & Utilities: 250 pages (`/apps/[slug]`)
+  - In-Depth Technical Guides: 135 pages (`/guides/[slug]`)
+  - Incident Logs & Tech Stories: 50 pages (`/stories/[slug]`)
+  - Core Pages: Homepage, robots.txt, sitemap.xml
+
+## Design System & Theme
+- **Base Theme**: Softer light white theme (`#F8FAFC`, `#FFFFFF`, `#0F172A`) with high readability e-ink typography.
+- **Liquid Glass Aesthetic**:
+  - Backdrop blur filters (`backdrop-blur-xl`, `backdrop-blur-md`)
+  - Frosted translucent card backgrounds (`--surface-glass: rgba(255, 255, 255, 0.72)`)
+  - Subtle specular border highlights (`box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.9)`)
+  - Pill badges and smooth animated hover elevation
+
+## Reader Experience & Monetization ("toi add read add")
+- **Reader Controls** (`components/ReaderControls.tsx`):
+  - Viewport-anchored liquid reading progress bar
+  - Typography size adjuster (`A-`, `A`, `A+`)
+  - Wide focus reading column toggle
+  - Native navigator sharing and bookmark persistence
+- **Ad Integrations**:
+  - `components/ReaderAds.tsx`:
+    - `InlineEditorialAd`: TOI-style sponsored perspective mid-article blocks
+    - `StickyBottomAd`: Floating collapsible bottom drawer with dismiss/minimize controls
+  - `components/AdUnit.tsx`: Google AdSense banners (horizontal leaderboard, responsive rectangle)
+  - `components/VastPlayer.tsx`: VAST XML video advertisement showcase
+
+## Resilience & Cache Management
+- `lib/cache-cleaner.ts`: Automated CacheStorage purge, service worker unregistration, and version tracking (`CURRENT_BUILD_VERSION`).
+- `components/ErrorBoundary.tsx`: Catches runtime crashes and auto-recovers from Next.js `ChunkLoadError` by flushing stale build caches.
+- `components/CacheCleanup.tsx`: Status indicator and manual cache purge action in `TopBar.tsx`.
+
+## Key Files & Directories
+| Path | Description |
+|------|-------------|
+| `app/page.tsx` | Main dashboard displaying Apps, Guides, Stories, and Links |
+| `app/apps/[slug]/page.tsx` | Web App detail page with interactive workbench and video ads |
+| `app/guides/[slug]/page.tsx` | Comprehensive guide reader with TOC, reader controls, and inline ads |
+| `app/stories/[slug]/page.tsx` | Dramatic incident narrative reader with progress bar and ad units |
+| `app/sitemap.ts` | Complete SEO sitemap covering all 442 pages |
+| `components/Dashboard.tsx` | Master view with category filters, live counts, and search |
+| `components/Sidebar.tsx` | Desktop navigation drawer with page counts and sponsored partner |
+| `components/TopBar.tsx` | Masthead, global search, cache cleaner trigger, and theme toggle |
+| `components/ErrorBoundary.tsx` | Fault-tolerant boundary with stale cache recovery |
+| `components/ReaderControls.tsx` | Interactive reader toolbar |
+| `components/ReaderAds.tsx` | Mid-content and sticky bottom ad components |
+| `data/apps.json` | 250 web tools and utilities |
+| `data/guides.json` | 135 in-depth guides |
+| `data/stories.json` | 50 engineering incident stories |
+| `data/metrics.json` | Google AdSense client ID and slot configuration |

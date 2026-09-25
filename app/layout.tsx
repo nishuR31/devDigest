@@ -5,6 +5,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/lib/theme-provider";
 import metricsData from "@/data/metrics.json";
 import ExitPopup from "@/components/ExitPopup";
+import ErrorBoundary from "@/components/ErrorBoundary";
+import { StickyBottomAd } from "@/components/ReaderAds";
 
 const mono = JetBrains_Mono({
   subsets: ["latin"],
@@ -75,11 +77,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark" suppressHydrationWarning>
-      <body className={`${display.variable} ${body.variable} ${sans.variable} ${mono.variable} font-sans antialiased`}>
+    <html lang="en" className="light" suppressHydrationWarning>
+      <body className={`${display.variable} ${body.variable} ${sans.variable} ${mono.variable} font-sans antialiased min-h-screen bg-bg text-ink selection:bg-accent selection:text-white`}>
         <ThemeProvider>
-          {children}
-          <ExitPopup />
+          <ErrorBoundary>
+            {children}
+            <StickyBottomAd />
+            <ExitPopup />
+          </ErrorBoundary>
         </ThemeProvider>
 
         {metricsConfigured && (

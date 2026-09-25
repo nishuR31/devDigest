@@ -2,54 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ======================================
-   UIUXPROMAX: editorial-grid-magazine
-   Palette: Magazine/Blog (#18181B + #EC4899 accent)
+/* ========================================================
+   SOFTER LIGHT WHITE BASE + LIQUID GLASS THEME
    Typography: Playfair Display + Source Serif 4 + Public Sans + JetBrains Mono
-   ====================================== */
+   ======================================================== */
 
 :root {
   color-scheme: light;
-  --bg: #FDFBF7;
-  --surface: #F5F5F5;
-  --surface-soft: #EDEDED;
-  --surface-panel: #EAEAEA;
-  --line: #E0E0E0;
-  --ink: #1A1A1A;
-  --ink-muted: #4A4A4A;
-  --ink-dim: #71717A;
-  --accent: #EC4899;
-  --accent-soft: #FCE7F3;
-  --accent-dim: #DB2777;
+  --bg: #F8FAFC;
+  --surface: rgba(255, 255, 255, 0.88);
+  --surface-glass: rgba(255, 255, 255, 0.72);
+  --surface-soft: #F1F5F9;
+  --surface-panel: #E2E8F0;
+  --line: #E2E8F0;
+  --line-glass: rgba(255, 255, 255, 0.65);
+  --ink: #0F172A;
+  --ink-muted: #334155;
+  --ink-dim: #64748B;
+  --accent: #E11D48;
+  --accent-soft: rgba(225, 29, 72, 0.08);
+  --accent-dim: #BE123C;
+  --glass-shadow: 0 8px 32px 0 rgba(15, 23, 42, 0.04), 0 1px 2px 0 rgba(15, 23, 42, 0.02);
+  --glass-specular: inset 0 1px 0 0 rgba(255, 255, 255, 0.9);
 }
 
 :root.dark {
   color-scheme: dark;
-  --bg: #121212;
-  --surface: #1E1E1E;
-  --surface-soft: #27272A;
-  --surface-panel: #2C2C30;
-  --line: #3F3F46;
-  --ink: #EAEAEA;
-  --ink-muted: #A1A1AA;
-  --ink-dim: #71717A;
-  --accent: #F472B6;
-  --accent-soft: rgba(244,114,182,0.12);
-  --accent-dim: #EC4899;
+  --bg: #0B0F19;
+  --surface: rgba(17, 24, 39, 0.88);
+  --surface-glass: rgba(17, 24, 39, 0.72);
+  --surface-soft: #1F2937;
+  --surface-panel: #374151;
+  --line: #374151;
+  --line-glass: rgba(255, 255, 255, 0.08);
+  --ink: #F9FAFB;
+  --ink-muted: #D1D5DB;
+  --ink-dim: #9CA3AF;
+  --accent: #FB7185;
+  --accent-soft: rgba(251, 113, 133, 0.12);
+  --accent-dim: #F43F5E;
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+  --glass-specular: inset 0 1px 0 0 rgba(255, 255, 255, 0.1);
 }
 
 /* Scrollbars */
 * { scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
-*::-webkit-scrollbar { width: 8px; height: 8px; }
+*::-webkit-scrollbar { width: 6px; height: 6px; }
 *::-webkit-scrollbar-track { background: transparent; }
-*::-webkit-scrollbar-thumb { background-color: var(--line); border-radius: 8px; border: 2px solid transparent; background-clip: content-box; }
+*::-webkit-scrollbar-thumb { background-color: var(--line); border-radius: 9999px; border: 2px solid transparent; background-clip: content-box; }
 
 body {
   background-color: var(--bg);
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(225, 29, 72, 0.03) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(99, 102, 241, 0.03) 0px, transparent 50%),
+    radial-gradient(at 50% 100%, rgba(241, 245, 249, 0.6) 0px, transparent 50%);
+  background-attachment: fixed;
   color: var(--ink);
   font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
-  transition: none; /* E-Ink style prefers instant transitions */
+  transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 ::selection {
@@ -60,12 +71,48 @@ body {
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
-/* ======================================
+/* ========================================================
+   LIQUID GLASS THEME STYLES
+   ======================================================== */
+
+.glass-panel {
+  background-color: var(--surface-glass);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid var(--line-glass);
+  box-shadow: var(--glass-shadow), var(--glass-specular);
+}
+
+.glass-card {
+  background-color: var(--surface);
+  backdrop-filter: blur(14px) saturate(160%);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  border: 1px solid var(--line);
+  box-shadow: var(--glass-shadow);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.glass-card:hover {
+  border-color: rgba(225, 29, 72, 0.35);
+  box-shadow: 0 12px 36px 0 rgba(15, 23, 42, 0.08), inset 0 1px 0 0 rgba(255, 255, 255, 0.9);
+  transform: translateY(-2px);
+}
+
+.glass-pill {
+  background-color: var(--surface-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--line-glass);
+  border-radius: 9999px;
+  box-shadow: var(--glass-specular);
+}
+
+/* ========================================================
    EDITORIAL TYPOGRAPHY
-   ====================================== */
+   ======================================================== */
 
 .font-display {
   font-family: var(--font-display), 'Playfair Display', serif;
@@ -86,15 +133,16 @@ body {
 /* Story / Article reading styles */
 .story-content {
   font-family: var(--font-body), 'Source Serif 4', serif;
-  font-size: 1.15rem;
+  font-size: 1.18rem;
   line-height: 1.85;
-  color: var(--ink); /* Much darker for better e-ink reading contrast */
+  color: var(--ink);
+  transition: font-size 0.15s ease, line-height 0.15s ease;
 }
 
 @media (min-width: 1024px) {
   .story-content {
     column-count: 2;
-    column-gap: 3rem;
+    column-gap: 3.5rem;
     column-rule: 1px solid var(--line);
   }
 
@@ -124,10 +172,10 @@ body {
 /* Drop cap — first letter of the opening paragraph */
 .drop-cap::first-letter {
   float: left;
-  font-size: 5rem;
+  font-size: 4.75rem;
   line-height: 0.75;
   padding-top: 0.12em;
-  padding-right: 0.12em;
+  padding-right: 0.15em;
   font-weight: 900;
   color: var(--accent);
   font-family: var(--font-display), 'Playfair Display', serif;
@@ -136,24 +184,26 @@ body {
 /* Pull quotes */
 .pull-quote {
   font-family: var(--font-display), 'Playfair Display', serif;
-  font-size: 1.6rem;
+  font-size: 1.55rem;
   font-weight: 400;
   font-style: italic;
-  line-height: 1.35;
-  margin: 3em 0;
-  padding: 2em 1.5em;
-  border-top: 3px solid var(--accent);
-  border-bottom: 3px solid var(--accent);
+  line-height: 1.4;
+  margin: 2.5em 0;
+  padding: 1.75em 1.5em;
+  border-top: 2px solid var(--accent);
+  border-bottom: 2px solid var(--accent);
   color: var(--ink);
   text-align: center;
+  background: var(--surface-soft);
+  border-radius: 12px;
 }
 
-/* Section dividers (editorial style) */
+/* Section dividers */
 .section-divider {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  margin: 3rem 0;
+  margin: 2.5rem 0;
 }
 .section-divider::before,
 .section-divider::after {
@@ -173,6 +223,21 @@ body {
 /* Hide scrollbar on mobile nav */
 .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 .hide-scrollbar::-webkit-scrollbar { display: none; }
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
