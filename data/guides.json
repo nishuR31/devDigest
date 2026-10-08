@@ -38,14 +38,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       },
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       }
     ]
   },
@@ -88,14 +88,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       },
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       }
     ]
   },
@@ -138,14 +138,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       },
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       }
     ]
   },
@@ -188,14 +188,14 @@
     ],
     "relatedAds": [
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       },
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -238,14 +238,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       },
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       }
     ]
   },
@@ -288,14 +288,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       },
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       }
     ]
   },
@@ -338,14 +338,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       },
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       }
     ]
   },
@@ -388,14 +388,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       },
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       }
     ]
   },
@@ -438,14 +438,14 @@
     ],
     "relatedAds": [
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       },
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -488,14 +488,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       },
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       }
     ]
   },
@@ -538,14 +538,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       },
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       }
     ]
   },
@@ -588,14 +588,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       },
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       }
     ]
   },
@@ -638,14 +638,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       },
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       }
     ]
   },
@@ -688,14 +688,14 @@
     ],
     "relatedAds": [
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       },
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -738,14 +738,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       },
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       }
     ]
   },
@@ -788,14 +788,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       },
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       }
     ]
   },
@@ -838,14 +838,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       },
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       }
     ]
   },
@@ -888,14 +888,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       },
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       }
     ]
   },
@@ -938,14 +938,14 @@
     ],
     "relatedAds": [
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       },
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -988,14 +988,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       },
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       }
     ]
   },
@@ -1038,14 +1038,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       },
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       }
     ]
   },
@@ -1088,14 +1088,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       },
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       }
     ]
   },
@@ -1138,14 +1138,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       },
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       }
     ]
   },
@@ -1188,14 +1188,14 @@
     ],
     "relatedAds": [
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       },
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -1238,14 +1238,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       },
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       }
     ]
   },
@@ -1288,14 +1288,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       },
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       }
     ]
   },
@@ -1338,14 +1338,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       },
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       }
     ]
   },
@@ -1388,14 +1388,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       },
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       }
     ]
   },
@@ -1438,14 +1438,14 @@
     ],
     "relatedAds": [
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       },
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -1488,14 +1488,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       },
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       }
     ]
   },
@@ -1538,14 +1538,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       },
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       }
     ]
   },
@@ -1588,14 +1588,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       },
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       }
     ]
   },
@@ -1638,14 +1638,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       },
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       }
     ]
   },
@@ -1688,14 +1688,14 @@
     ],
     "relatedAds": [
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       },
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -1738,14 +1738,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       },
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       }
     ]
   },
@@ -1788,14 +1788,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       },
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       }
     ]
   },
@@ -1838,14 +1838,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       },
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       }
     ]
   },
@@ -1888,14 +1888,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       },
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       }
     ]
   },
@@ -1938,14 +1938,14 @@
     ],
     "relatedAds": [
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       },
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -1988,14 +1988,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       },
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       }
     ]
   },
@@ -2038,14 +2038,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       },
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       }
     ]
   },
@@ -2088,14 +2088,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       },
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       }
     ]
   },
@@ -2138,14 +2138,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       },
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       }
     ]
   },
@@ -2188,14 +2188,14 @@
     ],
     "relatedAds": [
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       },
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -2238,14 +2238,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       },
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       }
     ]
   },
@@ -2288,14 +2288,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       },
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       }
     ]
   },
@@ -2338,14 +2338,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       },
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       }
     ]
   },
@@ -2388,14 +2388,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       },
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       }
     ]
   },
@@ -2438,14 +2438,14 @@
     ],
     "relatedAds": [
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       },
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -2488,14 +2488,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       },
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       }
     ]
   },
@@ -2538,14 +2538,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       },
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       }
     ]
   },
@@ -2588,14 +2588,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       },
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       }
     ]
   },
@@ -2638,14 +2638,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       },
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       }
     ]
   },
@@ -2688,14 +2688,14 @@
     ],
     "relatedAds": [
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       },
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -2738,14 +2738,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       },
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       }
     ]
   },
@@ -2788,14 +2788,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       },
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       }
     ]
   },
@@ -2838,14 +2838,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       },
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       }
     ]
   },
@@ -2888,14 +2888,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       },
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       }
     ]
   },
@@ -2938,14 +2938,14 @@
     ],
     "relatedAds": [
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       },
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -2988,14 +2988,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       },
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       }
     ]
   },
@@ -3038,14 +3038,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       },
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       }
     ]
   },
@@ -3088,14 +3088,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       },
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       }
     ]
   },
@@ -3138,14 +3138,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       },
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       }
     ]
   },
@@ -3188,14 +3188,14 @@
     ],
     "relatedAds": [
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       },
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -3238,14 +3238,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       },
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       }
     ]
   },
@@ -3288,14 +3288,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       },
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       }
     ]
   },
@@ -3338,14 +3338,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       },
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       }
     ]
   },
@@ -3388,14 +3388,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       },
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       }
     ]
   },
@@ -3438,14 +3438,14 @@
     ],
     "relatedAds": [
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       },
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -3488,14 +3488,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       },
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       }
     ]
   },
@@ -3538,14 +3538,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       },
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       }
     ]
   },
@@ -3588,14 +3588,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       },
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       }
     ]
   },
@@ -3638,14 +3638,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       },
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       }
     ]
   },
@@ -3688,14 +3688,14 @@
     ],
     "relatedAds": [
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       },
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -3738,14 +3738,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       },
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       }
     ]
   },
@@ -3788,14 +3788,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       },
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       }
     ]
   },
@@ -3838,14 +3838,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       },
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       }
     ]
   },
@@ -3888,14 +3888,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise API Security Suite",
-        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats. 30-day free trial.",
-        "url": "https://example.com/ad/security"
+        "title": "Cloudflare Enterprise Security & WAF",
+        "desc": "Protect your endpoints from bot attacks, SQL injection, and zero-day threats in real time.",
+        "url": "https://www.cloudflare.com/application-services/products/waf/"
       },
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       }
     ]
   },
@@ -3938,14 +3938,14 @@
     ],
     "relatedAds": [
       {
-        "title": "AI-Powered Code Review Tool",
-        "desc": "Catch bugs before they reach production. Integrates with GitHub, GitLab, and Bitbucket.",
-        "url": "https://example.com/ad/codereview"
+        "title": "GitHub Copilot Code Intelligence",
+        "desc": "AI-powered pair programming and code reviews. Catch bugs and accelerate production velocity.",
+        "url": "https://github.com/features/copilot"
       },
       {
-        "title": "Premium Cloud Hosting — 50% Off",
-        "desc": "NVMe SSD servers with 99.99% uptime. DDoS protection included. Start your free trial today.",
-        "url": "https://example.com/ad/hosting"
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -3988,14 +3988,14 @@
     ],
     "relatedAds": [
       {
-        "title": "Developer Resume Builder",
-        "desc": "Create a stunning developer resume in minutes. ATS-optimized templates designed for tech roles.",
-        "url": "https://example.com/ad/resume"
+        "title": "Levels.fyi Tech Career & Resume Services",
+        "desc": "ATS-optimized engineering resume reviews and salary negotiation mentorship by FAANG recruiters.",
+        "url": "https://www.levels.fyi/services/"
       },
       {
-        "title": "Master System Design — Online Course",
-        "desc": "40+ hours of HD video content. Real-world case studies from Netflix, Uber, and Stripe. Enroll now.",
-        "url": "https://example.com/ad/course"
+        "title": "ByteByteGo System Design by Alex Xu",
+        "desc": "Master high-concurrency architectures, system design interviews, and distributed scale.",
+        "url": "https://bytebytego.com/"
       }
     ]
   },
@@ -4028,9 +4028,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4063,9 +4063,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4098,9 +4098,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4133,9 +4133,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4168,9 +4168,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4203,9 +4203,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4238,9 +4238,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4273,9 +4273,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4308,9 +4308,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4343,9 +4343,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4378,9 +4378,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4413,9 +4413,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4448,9 +4448,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4483,9 +4483,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4518,9 +4518,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4553,9 +4553,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4588,9 +4588,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4623,9 +4623,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4658,9 +4658,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4693,9 +4693,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4728,9 +4728,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4763,9 +4763,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4798,9 +4798,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4833,9 +4833,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4868,9 +4868,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4903,9 +4903,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4938,9 +4938,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -4973,9 +4973,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5008,9 +5008,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5043,9 +5043,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5078,9 +5078,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5113,9 +5113,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5148,9 +5148,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5183,9 +5183,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5218,9 +5218,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5253,9 +5253,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5288,9 +5288,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5323,9 +5323,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5358,9 +5358,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5393,9 +5393,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5428,9 +5428,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5463,9 +5463,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5498,9 +5498,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5533,9 +5533,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5568,9 +5568,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5603,9 +5603,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5638,9 +5638,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5673,9 +5673,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5708,9 +5708,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5743,9 +5743,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5778,9 +5778,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5813,9 +5813,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5848,9 +5848,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5883,9 +5883,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   },
@@ -5918,9 +5918,9 @@
     ],
     "relatedAds": [
       {
-        "title": "Enterprise Cloud Hosting",
-        "url": "https://example.com/ad/hosting",
-        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        "title": "DigitalOcean Cloud Infrastructure",
+        "desc": "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit.",
+        "url": "https://www.digitalocean.com/"
       }
     ]
   }

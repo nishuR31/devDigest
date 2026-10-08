@@ -104,10 +104,10 @@ export default function StoryPage({ params }: { params: { slug: string } }) {
           <InlineEditorialAd
             slotId="inline-reading-ad"
             category="Observability & Incident Response"
-            sponsorName="TelemetryOps Real-time APM"
-            tagline="Pinpoint memory leaks, recursive call spikes, and un-indexed database queries in production with zero code changes."
-            ctaText="Try TelemetryOps Free"
-            ctaUrl="https://example.com/ad/telemetryops"
+            sponsorName="Sentry Code Observability & APM"
+            tagline="Pinpoint memory leaks, unhandled exceptions, and slow database queries in production with real-time stack traces."
+            ctaText="Try Sentry Free"
+            ctaUrl="https://sentry.io/"
           />
 
           {/* Bottom Ad Grid */}

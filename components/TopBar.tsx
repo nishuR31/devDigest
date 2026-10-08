@@ -55,6 +55,7 @@ export default function TopBar({
         {[
           { id: "all", label: "All Content" },
           { id: "apps", label: "Web Apps & Tools (250)" },
+          { id: "snippets", label: "Code Snippets (60)" },
           { id: "guides", label: "In-Depth Guides (135)" },
           { id: "stories", label: "Tech Stories (50)" },
           ...categories

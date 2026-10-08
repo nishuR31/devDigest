@@ -2,6 +2,7 @@ import { MetadataRoute } from "next";
 import guidesData from "@/data/guides.json";
 import storiesData from "@/data/stories.json";
 import appsData from "@/data/apps.json";
+import snippetsData from "@/data/snippets.json";
 
 const SITE_URL = "https://dev-digestion.vercel.app";
 
@@ -27,6 +28,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
+  const snippets = snippetsData.map((snip) => ({
+    url: `${SITE_URL}/snippets/${snip.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.85,
+  }));
+
   return [
     {
       url: SITE_URL,
@@ -37,5 +45,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...guides,
     ...stories,
     ...apps,
+    ...snippets,
   ];
 }

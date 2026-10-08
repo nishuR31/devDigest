@@ -219,9 +219,9 @@ for (const t of GUIDE_TOPICS) {
     ],
     relatedAds: [
       {
-        title: "Enterprise Cloud Hosting",
-        url: "https://example.com/ad/hosting",
-        desc: "Ultra-low latency NVMe servers with 99.99% uptime guarantee."
+        title: "DigitalOcean Cloud Infrastructure",
+        url: "https://www.digitalocean.com/",
+        desc: "Ultra-low latency NVMe servers with 99.99% uptime guarantee and $200 free credit."
       }
     ]
   });

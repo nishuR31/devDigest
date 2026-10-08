@@ -1,6 +1,6 @@
 "use client";
 
-import { LayoutGrid, BookOpen, FileText, Layers, Wrench } from "lucide-react";
+import { LayoutGrid, BookOpen, FileText, Layers, Wrench, Terminal } from "lucide-react";
 import type { LinkCategory } from "@/lib/types";
 import ContentHighlight from "@/components/ContentHighlight";
 
@@ -14,8 +14,9 @@ export default function Sidebar({
   onSelect: (id: string) => void;
 }) {
   const navItems = [
-    { id: "all", label: "All Hub", icon: LayoutGrid, count: null },
+    { id: "all", label: "All Content", icon: LayoutGrid, count: null },
     { id: "apps", label: "Web Apps & Tools", icon: Wrench, count: 250 },
+    { id: "snippets", label: "Code Snippets", icon: Terminal, count: 60 },
     { id: "guides", label: "In-Depth Guides", icon: FileText, count: 135 },
     { id: "stories", label: "Tech Stories", icon: BookOpen, count: 50 },
   ];
@@ -26,7 +27,7 @@ export default function Sidebar({
         <span className="font-label text-[10px] uppercase tracking-[0.2em] text-ink-dim">
           Explorer
         </span>
-        <span className="font-label text-[10px] text-accent font-bold">435+ Pages</span>
+        <span className="font-label text-[10px] text-accent font-bold">500+ Pages</span>
       </div>
 
       <nav className="flex-1 px-3 py-4 space-y-1 overflow-y-auto">

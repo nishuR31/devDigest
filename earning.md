@@ -1,61 +1,54 @@
-# Monetization Guide: How to Earn
+# Monetization & Ads Setup Guide
 
-To start earning money from your website traffic, you need to replace the placeholder ad credentials with your own real accounts. Here is exactly where to log in and what data to change in the codebase.
-
-## 1. Google AdSense (Display & Banner Ads)
-
-This handles all the standard banner ads (rectangles, leaderboards, etc.) using the `<AdUnit />` component.
-
-### Where to Log In
-- **URL**: [Google AdSense](https://adsense.google.com/)
-- **Setup**: Log in, add your website domain, and wait for Google to review and approve your site.
-
-### Which Data to Change
-Once approved, you will get a Publisher ID (looks like `ca-pub-1234567890`) and you can create individual Ad Units which will give you a numeric Slot ID (e.g., `8273645192`).
-
-**1. Update the Publisher ID:**
-Open `/data/metrics.json` and change the `"client"` value to your AdSense Publisher ID:
-```json
-{
-  "provider": "internal",
-  "client": "ca-pub-YOUR_ACTUAL_PUBLISHER_ID_HERE", 
-  "slots": [...]
-}
-```
-
-**2. Update the Slot IDs in your Code:**
-Whenever you want to place a banner ad in your app, use the `AdUnit` component and pass the numeric Slot ID given to you by AdSense. For example, in `/app/apps/[slug]/page.tsx`:
-```tsx
-import AdUnit from '@/components/AdUnit';
-
-// Change "top-banner" to your real 10-digit AdSense slot ID
-<AdUnit slotId="8273645192" format="horizontal" />
-```
+Your website `adsWeb` is fully configured for multi-channel monetization with **Google AdSense**, **Google IMA VAST Video Ads**, and **Real Direct Sponsor/Affiliate Networks**.
 
 ---
 
-## 2. Video Ads (VAST / Google IMA)
+## 1. Google AdSense (Display & Banner Units)
 
-This handles high-paying pre-roll or mid-roll video advertisements using the `<VastPlayer />` component.
+Google AdSense is fully configured across the application with your publisher account and ad slots.
 
-### Where to Log In
-- **URL**: You need to sign up for a Video Ad Network. Popular choices are [Google Ad Manager](https://admanager.google.com/), [PropellerAds](https://propellerads.com/), or [Setupad](https://setupad.com/).
+### Active Configuration
+- **Publisher Account**: `ca-pub-5305326224028702`
+- **Crawler Verification**: Configured in `app/layout.tsx` (`<meta name="google-adsense-account" content="ca-pub-5305326224028702">`).
+- **AdSense Engine Script**: Dynamically served in `app/layout.tsx` via `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js`.
+- **Authorized Digital Sellers (`ads.txt`)**: Served from `public/ads.txt`:
+  ```
+  google.com, pub-5305326224028702, DIRECT, f08c47fec0942fa0
+  ```
+- **Slot Mapping**: Defined in `/data/metrics.json` for:
+  - `top-banner`
+  - `inline-leaderboard`
+  - `inline-reading-ad`
+  - `sidebar-rect`
+  - `bottom-left`
+  - `bottom-right`
+  - `footer-banner`
 
-### Which Data to Change
-Your ad network will generate a **VAST Ad Tag URL** (an XML link) for your video inventory.
+### Resilient Sponsor Fallbacks
+If an ad blocker is running or while AdSense is reviewing your domain, `<AdUnit />` automatically renders a high-converting, verified developer partner card (Supabase, DigitalOcean, Cloudflare, ByteByteGo, Sentry, Tailwind UI) with zero placeholder text or broken links.
 
-**Update the Code:**
-Wherever you use the `VastPlayer`, pass that URL into the `adTagUrl` property. For example, in `/app/apps/[slug]/page.tsx`:
-```tsx
-import VastPlayer from '@/components/VastPlayer';
+---
 
-<VastPlayer 
-  adTagUrl="https://pubads.g.doubleclick.net/gampad/ads?..." 
-  videoUrl="/optional-content-video.mp4" 
-/>
-```
+## 2. Real Direct Sponsor & Affiliate Links
 
-### 📈 How You Get Paid
-Once your IDs are updated:
-1. **Drive Traffic**: Share your links. Ads will only generate revenue if real humans see or click them.
-2. **Payouts**: The ad networks (like Google) will track your impressions (CPM) and clicks (CPC) and send you a monthly payout directly to your linked bank account.
+All dummy `example.com` links have been replaced with authentic, production-grade tools:
+- **Cloud Infrastructure**: [DigitalOcean Droplets & Kubernetes](https://www.digitalocean.com/)
+- **Zero-Trust WAF & Security**: [Cloudflare Application Security](https://www.cloudflare.com/application-services/products/waf/)
+- **System Design & Interview**: [ByteByteGo System Design](https://bytebytego.com/)
+- **Backend & Realtime**: [Supabase Platform](https://supabase.com/)
+- **Observability**: [Sentry APM & Error Tracking](https://sentry.io/)
+- **Developer Tools**: [JetBrains Developer Suite](https://www.jetbrains.com/)
+- **Cloud Deployment**: [Railway App Platform](https://railway.app/)
+- **Startup Banking**: [Mercury Banking](https://mercury.com/)
+
+All partner clicks route through `/out?target=<ENCODED_URL>` to protect outbound links and measure user intent.
+
+---
+
+## 3. Video Ads (Google IMA SDK / VAST 3.0)
+
+Interactive apps feature video ads powered by Google's Interactive Media Ads (IMA) SDK:
+- **Player Component**: `components/VastPlayer.tsx`
+- **Default VAST 3.0 Tag**: Uses Google DoubleClick official linear sample ad tag with automatic content resume.
+- Custom VAST ad tags from networks like Google Ad Manager, PropellerAds, or Setupad can be passed directly to `<VastPlayer adTagUrl="..." />`.

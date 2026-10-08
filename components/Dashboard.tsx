@@ -219,11 +219,11 @@ export default function Dashboard({ data }: { data: LinksData }) {
             {/* Mid-content Editorial Reading Ad */}
             <InlineEditorialAd
               slotId="inline-leaderboard"
-              category="Infrastructure & Security"
-              sponsorName="ApexCloud Edge Engine"
+              category="Infrastructure & Edge"
+              sponsorName="Cloudflare Workers & Edge Network"
               tagline="Global low-latency serverless edge computing with built-in KV, caching, and automated DDoS mitigation."
-              ctaText="Start Free Trial"
-              ctaUrl="https://example.com/ad/apexcloud"
+              ctaText="Deploy on Cloudflare"
+              ctaUrl="https://workers.cloudflare.com/"
             />
 
             {/* ---- IN-DEPTH GUIDES SECTION ---- */}

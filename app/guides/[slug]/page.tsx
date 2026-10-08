@@ -135,10 +135,10 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
           <InlineEditorialAd
             slotId="inline-reading-ad"
             category={guide.category || "Architecture"}
-            sponsorName="Distributed Systems Masterclass"
-            tagline="Master high-concurrency systems, fault tolerance, and consensus protocols with real-world failure drills."
+            sponsorName="ByteByteGo System Design by Alex Xu"
+            tagline="Master high-concurrency systems, fault tolerance, and consensus protocols with real-world architecture case studies."
             ctaText="Explore Curriculum"
-            ctaUrl="https://example.com/ad/masterclass"
+            ctaUrl="https://bytebytego.com/"
           />
 
           {/* ====== RELATED TOOLS ====== */}

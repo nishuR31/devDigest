@@ -17,12 +17,13 @@ interface InlineAdProps {
 export function InlineEditorialAd({
   slotId = "inline-reading-ad",
   category = "Development",
-  sponsorName = "ScaleOps Cloud",
-  tagline = "Deploy zero-cold-start edge microservices with automated failover and 99.999% SLA.",
-  ctaText = "Claim $200 Developer Credit",
-  ctaUrl = "https://example.com/ad/scaleops",
+  sponsorName = "Supabase Platform",
+  tagline = "Deploy zero-cold-start PostgreSQL databases, Authentication, and Edge Functions with automated global failover.",
+  ctaText = "Start Building Free",
+  ctaUrl = "https://supabase.com/",
 }: InlineAdProps) {
-  const isConfigured = metricsData.client && !metricsData.client.includes("0000000000000000");
+  const isConfigured =
+    Boolean(metricsData.client) && !metricsData.client.includes("0000000000000000");
 
   return (
     <div className="my-10 overflow-hidden rounded-2xl border border-line bg-surface/80 p-6 shadow-sm backdrop-blur-xl transition-all hover:border-accent/30">
@@ -52,7 +53,7 @@ export function InlineEditorialAd({
             </p>
           </div>
           <a
-            href={ctaUrl}
+            href={`/out?target=${encodeURIComponent(ctaUrl)}`}
             target="_blank"
             rel="noopener noreferrer sponsored"
             className="shrink-0 inline-flex items-center gap-1.5 rounded-xl bg-accent px-4 py-2 text-xs font-semibold text-white shadow-sm hover:opacity-95 active:scale-95 transition-all"
@@ -82,6 +83,8 @@ export function StickyBottomAd() {
   }, []);
 
   if (closed || !scrolled) return null;
+
+  const realSecurityUrl = "https://www.cloudflare.com/application-services/products/waf/";
 
   return (
     <aside aria-label="Sponsored announcement" className="fixed bottom-3 left-1/2 -translate-x-1/2 z-40 w-[95%] max-w-3xl animate-fade-up">
@@ -116,15 +119,15 @@ export function StickyBottomAd() {
           <div className="p-3 sm:p-4 flex flex-col sm:flex-row items-center justify-between gap-3">
             <div className="text-left w-full sm:w-auto">
               <p className="text-sm font-bold text-ink font-display line-clamp-1">
-                Enterprise Cloud Security & Zero-Trust WAF
+                Cloudflare Zero-Trust & API Security WAF
               </p>
               <p className="text-xs text-ink-muted font-body line-clamp-1 sm:line-clamp-2">
-                Defend APIs, stop automated bot attacks, and protect user sessions in real-time.
+                Defend APIs, stop automated bot attacks, and protect user sessions in real-time across 300+ edge locations.
               </p>
             </div>
             <div className="flex items-center gap-2 shrink-0 w-full sm:w-auto justify-end">
               <a
-                href="https://example.com/ad/security"
+                href={`/out?target=${encodeURIComponent(realSecurityUrl)}`}
                 target="_blank"
                 rel="noopener noreferrer sponsored"
                 className="inline-flex items-center justify-center gap-1.5 rounded-xl bg-accent px-4 py-2 text-xs font-semibold text-white shadow-sm hover:opacity-90 active:scale-95 transition-all w-full sm:w-auto"

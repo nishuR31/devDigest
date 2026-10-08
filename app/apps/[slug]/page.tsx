@@ -3,6 +3,7 @@ import path from "path";
 import { Metadata } from "next";
 import AdUnit from "@/components/AdUnit";
 import VastPlayer from "@/components/VastPlayer";
+import AppWorkbench from "@/components/AppWorkbench";
 import { InlineEditorialAd } from "@/components/ReaderAds";
 import Link from "next/link";
 import { ArrowLeft, Play, CheckCircle2, ShieldCheck, Zap, Download, RefreshCw, ChevronRight } from "lucide-react";
@@ -119,60 +120,17 @@ export default function AppDetailsPage({ params }: { params: { slug: string } })
           </div>
 
           {/* Interactive Utility Workbench Sandbox */}
-          <div className="my-8 rounded-2xl border border-line bg-surface-soft/80 p-5 sm:p-6 shadow-inner">
-            <div className="flex items-center justify-between pb-3 mb-4 border-b border-line text-xs font-label text-ink-dim">
-              <span className="flex items-center gap-1.5">
-                <Play className="h-3.5 w-3.5 text-accent" />
-                Online Console & Workbench
-              </span>
-              <span className="text-[10px] text-emerald-600 dark:text-emerald-400 font-bold uppercase">Ready</span>
-            </div>
-
-            <div className="space-y-4">
-              <div>
-                <label className="block text-xs font-semibold font-ui text-ink mb-1.5">
-                  Input Parameters & Source Text
-                </label>
-                <textarea
-                  rows={3}
-                  defaultValue="Sample input string for instant analysis and computation..."
-                  placeholder="Enter values or paste data here..."
-                  className="w-full rounded-xl border border-line bg-surface/80 p-3 text-xs sm:text-sm font-label text-ink focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-all"
-                />
-              </div>
-
-              <div className="flex flex-wrap items-center gap-3">
-                <button
-                  type="button"
-                  className="inline-flex items-center gap-2 rounded-xl bg-accent px-5 py-2.5 text-xs font-semibold text-white shadow-sm hover:opacity-90 active:scale-95 transition-all"
-                >
-                  <Play className="h-3.5 w-3.5" />
-                  Execute Calculation
-                </button>
-                <button
-                  type="button"
-                  className="inline-flex items-center gap-1.5 rounded-xl border border-line bg-surface px-4 py-2.5 text-xs font-medium text-ink-muted hover:text-ink transition-all"
-                >
-                  <RefreshCw className="h-3.5 w-3.5" />
-                  Reset
-                </button>
-                <button
-                  type="button"
-                  className="ml-auto inline-flex items-center gap-1.5 rounded-xl border border-line bg-surface px-3 py-2.5 text-xs font-medium text-ink-muted hover:text-ink transition-all"
-                >
-                  <Download className="h-3.5 w-3.5" />
-                  Export Output
-                </button>
-              </div>
-            </div>
-          </div>
+          <AppWorkbench appTitle={app.title} category={app.category} />
 
           {/* VAST Video Ad Integration */}
           <div className="my-8">
             <span className="text-[10px] font-label text-ink-dim uppercase tracking-wider block mb-2 text-center">
               Video Showcase & Sponsor Broadcast
             </span>
-            <VastPlayer adTagUrl="https://example.com/vast.xml" />
+            <VastPlayer
+              adTagUrl="https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_ad_samples&sz=640x480&cust_params=sample_ct%3Dlinear&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator="
+              videoUrl="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            />
           </div>
 
           {/* Key Features List */}
@@ -208,10 +166,10 @@ export default function AppDetailsPage({ params }: { params: { slug: string } })
         <InlineEditorialAd
           slotId="inline-reading-ad"
           category={app.category}
-          sponsorName={`${app.category} Pro Suite`}
-          tagline="Upgrade your workflow with enterprise integrations, API automation, and team collaboration."
-          ctaText="Learn More"
-          ctaUrl="https://example.com/ad/pro-suite"
+          sponsorName="JetBrains All Products Pack"
+          tagline="Industry-leading developer IDEs, AI code completion, and collaborative development tools for modern software teams."
+          ctaText="Explore JetBrains"
+          ctaUrl="https://www.jetbrains.com/"
         />
 
         {/* Bottom Ad Units */}

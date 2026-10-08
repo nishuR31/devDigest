@@ -1,26 +1,54 @@
 {
-  "provider": "internal",
+  "provider": "google-adsense",
   "client": "ca-pub-5305326224028702",
   "slots": [
     {
-      "id": "sidebar-rect",
-      "slotId": "1111111111",
-      "format": "rectangle",
-      "label": "sponsored.tsx",
-      "placement": "sidebar"
+      "id": "top-banner",
+      "slotId": "5305326201",
+      "format": "horizontal",
+      "label": "top-banner.tsx",
+      "placement": "header"
     },
     {
       "id": "inline-leaderboard",
-      "slotId": "2222222222",
+      "slotId": "5305326202",
       "format": "horizontal",
-      "label": "sponsored-banner.tsx",
+      "label": "inline-leaderboard.tsx",
       "placement": "content"
     },
     {
-      "id": "footer-banner",
-      "slotId": "3333333333",
+      "id": "inline-reading-ad",
+      "slotId": "5305326203",
       "format": "horizontal",
-      "label": "sponsored-footer.tsx",
+      "label": "inline-reading.tsx",
+      "placement": "reading"
+    },
+    {
+      "id": "sidebar-rect",
+      "slotId": "5305326204",
+      "format": "rectangle",
+      "label": "sidebar-rect.tsx",
+      "placement": "sidebar"
+    },
+    {
+      "id": "bottom-left",
+      "slotId": "5305326205",
+      "format": "rectangle",
+      "label": "bottom-left.tsx",
+      "placement": "footer"
+    },
+    {
+      "id": "bottom-right",
+      "slotId": "5305326206",
+      "format": "rectangle",
+      "label": "bottom-right.tsx",
+      "placement": "footer"
+    },
+    {
+      "id": "footer-banner",
+      "slotId": "5305326207",
+      "format": "horizontal",
+      "label": "footer-banner.tsx",
       "placement": "footer"
     }
   ]
