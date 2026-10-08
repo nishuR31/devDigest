@@ -122,10 +122,10 @@ export default function AppDetailsPage({ params }: { params: { slug: string } })
           {/* Interactive Utility Workbench Sandbox */}
           <AppWorkbench appTitle={app.title} category={app.category} />
 
-          {/* VAST Video Ad Integration */}
+          {/* Video Showcase Integration */}
           <div className="my-8">
             <span className="text-[10px] font-label text-ink-dim uppercase tracking-wider block mb-2 text-center">
-              Video Showcase & Sponsor Broadcast
+              Interactive Video Showcase
             </span>
             <VastPlayer
               adTagUrl="https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_ad_samples&sz=640x480&cust_params=sample_ct%3Dlinear&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator="

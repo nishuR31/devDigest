@@ -5,7 +5,7 @@ import ContentHighlight from "@/components/ContentHighlight";
 import AdUnit from "@/components/AdUnit";
 import ReaderControls from "@/components/ReaderControls";
 import { InlineEditorialAd } from "@/components/ReaderAds";
-import { ArrowLeft, Clock, Calendar, ExternalLink, Megaphone, Wrench, ChevronRight } from "lucide-react";
+import { ArrowLeft, Clock, Calendar, ExternalLink, Wrench, ChevronRight } from "lucide-react";
 import Link from "next/link";
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
@@ -88,7 +88,7 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
 
             <div className="mt-6 pt-5 border-t border-line/60">
               <span className="font-label text-[9px] uppercase tracking-wider text-ink-dim block mb-2 text-center">
-                Sponsored
+                Featured Tool
               </span>
               <div className="rounded-xl overflow-hidden border border-line bg-surface-soft/80">
                 <ContentHighlight slotId="sidebar-rect" />
@@ -172,11 +172,11 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
             </section>
           )}
 
-          {/* ====== PREMIUM AD LINKS ====== */}
+          {/* ====== RECOMMENDED TOOLS ====== */}
           {relatedAds.length > 0 && (
             <section className="mt-8">
               <div className="section-divider mb-6">
-                <span>Featured Sponsor Solutions</span>
+                <span>Recommended Production Stack</span>
               </div>
               <div className="flex flex-col gap-3">
                 {relatedAds.map((ad: any, i: number) => (
@@ -184,19 +184,19 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
                     key={i}
                     href={`/out?target=${encodeURIComponent(ad.url)}`}
                     target="_blank"
-                    rel="noopener noreferrer sponsored"
-                    className="group flex items-start gap-4 p-5 rounded-2xl border border-accent/20 bg-accent-soft/60 hover:bg-accent-soft transition-all shadow-sm"
+                    rel="noopener noreferrer"
+                    className="group flex items-start gap-4 p-5 rounded-2xl border border-line bg-surface/80 hover:bg-surface-soft transition-all shadow-sm"
                   >
-                    <div className="h-10 w-10 rounded-xl bg-accent/20 flex items-center justify-center text-accent shrink-0">
-                      <Megaphone className="h-5 w-5" />
+                    <div className="h-10 w-10 rounded-xl bg-accent-soft flex items-center justify-center text-accent shrink-0">
+                      <Wrench className="h-5 w-5" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-2 mb-1">
                         <h4 className="font-ui text-sm font-bold text-ink group-hover:text-accent transition-colors">
                           {ad.title}
                         </h4>
-                        <span className="font-label text-[8px] uppercase tracking-wider bg-accent/20 text-accent px-1.5 py-0.5 rounded-full font-bold">
-                          Partner
+                        <span className="font-label text-[8px] uppercase tracking-wider bg-accent/15 text-accent px-1.5 py-0.5 rounded-full font-bold">
+                          Verified
                         </span>
                       </div>
                       <p className="font-body text-xs text-ink-muted italic">{ad.desc}</p>

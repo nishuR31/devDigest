@@ -83,12 +83,13 @@ export default function Sidebar({
         })}
       </nav>
 
-      {/* Sidebar ad */}
-      <div className="p-4 mt-auto border-t border-line">
-        <div className="font-label text-[9px] text-ink-dim uppercase tracking-[0.15em] mb-3 text-center">
-          Featured Partner
+      {/* Sidebar recommendation */}
+      <div className="p-2.5 mt-auto border-t border-line">
+        <div className="flex items-center justify-between font-label text-[9px] text-ink-dim uppercase tracking-[0.15em] mb-1.5 px-1">
+          <span>Featured Tool</span>
+          <span className="text-[8px] font-bold text-emerald-600 dark:text-emerald-400">Verified</span>
         </div>
-        <div className="rounded-xl overflow-hidden border border-line bg-surface-soft/80 shadow-inner">
+        <div className="rounded-xl overflow-hidden">
           <ContentHighlight slotId="sidebar-rect" />
         </div>
       </div>

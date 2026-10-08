@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import { ExternalLink, Sparkles, ShieldCheck } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import metricsData from "@/data/metrics.json";
 
 interface AdUnitProps {
@@ -16,48 +16,48 @@ declare global {
   }
 }
 
-// Production developer sponsor showcases for fallback / filler ads
+// Curated developer tools for fallback / native recommendations
 const REAL_SPONSORS = [
   {
     id: "supabase",
     title: "Supabase — Open Source Firebase Alternative",
-    desc: "PostgreSQL database, enterprise Auth, instant REST & GraphQL APIs, and Edge Functions with global replication.",
-    cta: "Start Free Project",
+    desc: "PostgreSQL database, enterprise Auth, instant REST APIs, and Edge Functions.",
+    cta: "Start Free",
     url: "https://supabase.com/",
-    category: "Cloud Database & Auth",
-    badge: "Featured Partner",
+    category: "Cloud Database",
+    badge: "Developer Stack",
   },
   {
     id: "digitalocean",
     title: "DigitalOcean Droplets & Managed Cloud",
-    desc: "Reliable SSD virtual machines, managed Kubernetes clusters, and NVMe databases with 99.99% uptime SLA.",
+    desc: "Reliable SSD virtual machines and managed Kubernetes with 99.99% uptime SLA.",
     cta: "Claim $200 Credit",
     url: "https://www.digitalocean.com/",
     category: "Infrastructure",
-    badge: "Official Sponsor",
+    badge: "Cloud Platform",
   },
   {
     id: "cloudflare",
     title: "Cloudflare Workers & Zero-Trust WAF",
-    desc: "Deploy serverless code in 300+ global edge locations with automated DDoS mitigation and millisecond cold starts.",
-    cta: "Deploy for Free",
+    desc: "Deploy serverless code in 300+ global edge locations with automated DDoS mitigation.",
+    cta: "Deploy Free",
     url: "https://workers.cloudflare.com/",
     category: "Edge & Security",
-    badge: "Verified Partner",
+    badge: "Edge Network",
   },
   {
     id: "bytebytego",
     title: "ByteByteGo System Design by Alex Xu",
-    desc: "Master large-scale distributed architectures, database sharding, and FAANG technical interviews with visual guides.",
-    cta: "Explore Curriculum",
+    desc: "Master large-scale distributed architectures and FAANG technical interviews.",
+    cta: "Explore Guides",
     url: "https://bytebytego.com/",
     category: "System Design",
-    badge: "Recommended",
+    badge: "Architecture",
   },
   {
     id: "sentry",
     title: "Sentry Code-Level APM & Error Tracking",
-    desc: "Pinpoint crashes, frontend performance bottlenecks, and slow database queries before users encounter them.",
+    desc: "Pinpoint crashes, frontend bottlenecks, and slow database queries in production.",
     cta: "Monitor Free",
     url: "https://sentry.io/",
     category: "Observability",
@@ -66,7 +66,7 @@ const REAL_SPONSORS = [
   {
     id: "tailwindui",
     title: "Tailwind UI & Production Components",
-    desc: "Over 500+ crafted, accessible, and responsive application UI components built by the Tailwind CSS team.",
+    desc: "Over 500+ crafted, accessible, responsive components by the Tailwind team.",
     cta: "View Components",
     url: "https://tailwindui.com/",
     category: "Frontend Design",
@@ -112,45 +112,40 @@ export default function AdUnit({
     ) % REAL_SPONSORS.length;
   const sponsor = REAL_SPONSORS[sponsorIndex];
 
-  // If AdSense is unconfigured or blocked by ad-blockers / pending review, show real sponsor card
+  // If AdSense is unconfigured or blocked by ad-blockers / pending review, show low-height responsive card
   if (!isConfigured || failed) {
     return (
       <div
-        className={`my-4 overflow-hidden rounded-2xl border border-line bg-surface/85 glass-card p-4 sm:p-5 shadow-sm transition-all hover:border-accent/30 ${className}`}
+        className={`my-2 overflow-hidden rounded-xl border border-emerald-500/25 hover:border-emerald-500/45 bg-surface/90 glass-card p-2.5 sm:p-3 shadow-xs transition-all ${className}`}
       >
-        <div className="flex items-center justify-between gap-2 pb-2 mb-3 border-b border-line text-[10px] font-label text-ink-dim uppercase tracking-wider">
-          <span className="flex items-center gap-1.5 text-accent font-bold">
-            <Sparkles className="h-3 w-3" />
-            Sponsored Perspective
+        <div className="flex items-center justify-between gap-2 pb-1 mb-1 border-b border-line/60 text-[8px] sm:text-[9px] font-label uppercase tracking-wider">
+          <span className="font-bold text-emerald-600 dark:text-emerald-400">
+            {sponsor.category}
           </span>
-          <span className="flex items-center gap-1">
-            <ShieldCheck className="h-3 w-3 text-emerald-500" />
+          <span className="text-ink-dim font-medium text-[8px] px-1.5 py-0.2 rounded bg-surface-soft">
             {sponsor.badge}
           </span>
         </div>
         <div
           className={`flex ${
             format === "rectangle"
-              ? "flex-col gap-3"
-              : "flex-col sm:flex-row items-start sm:items-center justify-between gap-4"
+              ? "flex-col gap-1.5"
+              : "flex-col sm:flex-row items-start sm:items-center justify-between gap-2.5"
           }`}
         >
-          <div className="space-y-1 min-w-0">
-            <span className="text-[10px] font-ui font-semibold text-accent uppercase tracking-wider">
-              {sponsor.category}
-            </span>
-            <h4 className="text-sm sm:text-base font-bold font-display text-ink truncate sm:whitespace-normal">
+          <div className="space-y-0.2 min-w-0 flex-1">
+            <h4 className="text-xs sm:text-[13px] font-bold font-display text-ink truncate">
               {sponsor.title}
             </h4>
-            <p className="text-xs font-body text-ink-muted italic line-clamp-2">
+            <p className="text-[10px] sm:text-[11px] font-body text-ink-muted italic line-clamp-1">
               {sponsor.desc}
             </p>
           </div>
           <a
             href={`/out?target=${encodeURIComponent(sponsor.url)}`}
             target="_blank"
-            rel="noopener noreferrer sponsored"
-            className="shrink-0 inline-flex items-center justify-center gap-1.5 rounded-xl bg-accent px-4 py-2 text-xs font-semibold text-white shadow-sm hover:opacity-90 active:scale-95 transition-all w-full sm:w-auto"
+            rel="noopener noreferrer"
+            className="shrink-0 inline-flex items-center justify-center gap-1 h-7 px-2.5 sm:px-3 rounded-lg bg-accent text-xs font-semibold text-white shadow-xs hover:opacity-95 active:scale-95 transition-all w-full sm:w-auto"
           >
             <span>{sponsor.cta}</span>
             <ExternalLink className="h-3 w-3" />
@@ -163,14 +158,14 @@ export default function AdUnit({
   // Google AdSense Unit
   return (
     <div
-      className={`my-4 overflow-hidden rounded-2xl border border-line bg-surface-panel/30 min-h-[90px] flex items-center justify-center ${className}`}
+      className={`my-3 overflow-hidden rounded-xl border border-line bg-surface-panel/30 min-h-[70px] flex items-center justify-center ${className}`}
     >
       <ins
         className="adsbygoogle w-full"
         style={{
           display: "block",
           textAlign: "center",
-          minHeight: format === "rectangle" ? "250px" : "90px",
+          minHeight: format === "rectangle" ? "120px" : "70px",
         }}
         data-ad-client={metricsData.client}
         data-ad-slot={numericSlotId}

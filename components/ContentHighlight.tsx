@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { ExternalLink, Sparkles } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import metricsData from "@/data/metrics.json";
 import type { ContentSlotConfig } from "@/lib/types";
 
@@ -12,9 +12,9 @@ declare global {
 }
 
 const FORMAT_STYLE: Record<ContentSlotConfig["format"], string> = {
-  rectangle: "min-h-[250px] w-full max-w-[336px] mx-auto",
-  horizontal: "min-h-[90px] w-full",
-  vertical: "min-h-[400px] w-full max-w-[300px] mx-auto",
+  rectangle: "min-h-[50px] w-full",
+  horizontal: "min-h-[50px] w-full",
+  vertical: "min-h-[80px] w-full",
 };
 
 const isConfigured =
@@ -39,39 +39,43 @@ export default function ContentHighlight({ slotId }: { slotId: string }) {
 
   if (!config) return null;
 
-  const containerClass = `my-4 ${
-    FORMAT_STYLE[config.format as ContentSlotConfig["format"]]
-  } rounded-xl bg-surface-panel/60 flex flex-col border border-line overflow-hidden`;
-
   // Fallback to real partner card if AdSense is pending/unfilled
   if (!isConfigured || failed) {
     return (
-      <div className="p-3.5 space-y-2 text-left">
-        <div className="flex items-center justify-between text-[9px] font-label text-accent font-bold uppercase tracking-wider">
-          <span className="flex items-center gap-1">
-            <Sparkles className="h-2.5 w-2.5" />
-            Supabase Platform
-          </span>
-          <span className="text-ink-dim">Sponsor</span>
+      <a
+        href={`/out?target=${encodeURIComponent("https://supabase.com/")}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group flex items-center justify-between gap-2 p-2 rounded-xl bg-surface/90 hover:bg-surface border border-emerald-500/25 hover:border-emerald-500/50 transition-all shadow-xs"
+      >
+        <div className="flex items-center gap-2 min-w-0">
+          <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 font-bold font-mono text-xs shadow-inner">
+            S
+          </div>
+          <div className="min-w-0">
+            <div className="flex items-center gap-1">
+              <span className="font-ui text-xs font-bold text-ink group-hover:text-accent transition-colors truncate">
+                Supabase
+              </span>
+              <span className="text-[7px] font-label font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-1 py-0.2 rounded border border-emerald-500/20">
+                DB
+              </span>
+            </div>
+            <p className="text-[10px] font-body text-ink-muted truncate italic">
+              Postgres & Auth platform
+            </p>
+          </div>
         </div>
-        <p className="text-xs font-display font-bold text-ink leading-snug">
-          PostgreSQL Database & Enterprise Auth
-        </p>
-        <p className="text-[11px] font-body text-ink-muted italic leading-relaxed">
-          Open-source Firebase alternative with real-time replication and Edge Functions.
-        </p>
-        <a
-          href={`/out?target=${encodeURIComponent("https://supabase.com/")}`}
-          target="_blank"
-          rel="noopener noreferrer sponsored"
-          className="inline-flex items-center justify-center gap-1.5 w-full py-1.5 px-3 rounded-lg bg-accent text-[11px] font-ui font-semibold text-white shadow-sm hover:opacity-90 active:scale-95 transition-all mt-1"
-        >
-          <span>Explore Supabase</span>
+        <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-accent text-white shadow-xs group-hover:scale-105 transition-transform">
           <ExternalLink className="h-3 w-3" />
-        </a>
-      </div>
+        </div>
+      </a>
     );
   }
+
+  const containerClass = `my-1 ${
+    FORMAT_STYLE[config.format as ContentSlotConfig["format"]]
+  } rounded-xl bg-surface-panel/40 flex flex-col border border-line overflow-hidden`;
 
   return (
     <div className={containerClass}>
